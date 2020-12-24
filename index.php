@@ -52,15 +52,15 @@
 <?php
 
 if(isset($_POST['secretary-login'])){
-    header("location:../Login/Loginpage_secretary.php");
+    header("location:./Login/Loginpage_secretary.php");
 }
 
 if(isset($_POST['authenticator-login'])){
-    header("location:../Login/Loginpage_authenticator.php");
+    header("location:./Login/Loginpage_authenticator.php");
 }
 
 if(isset($_POST['shipper-login'])){
-    header("location:../Login/Loginpage_Shipper.php");
+    header("location:./Login/Loginpage_Shipper.php");
 }
 
 ?>

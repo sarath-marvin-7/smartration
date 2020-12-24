@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: "Lato","Arial",sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;    
+}
+
+.wrapper{
+    background: linear-gradient(to right bottom, #a1e1f0, rgba(17, 37, 140, 0.92));
+    padding: 20px 30px;
+}
+
+.container{
+    background:#fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*-------HEADER---------*/
+.header{
+    display: flex;
+    height: 70px;
+    border-bottom: 1px solid silver;
+    background: #fbfbfb;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.welcome-note{
+    flex: 1;
+    padding: 25px 0 0 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #414141;
+    letter-spacing: 1px;
+}
+
+.logout{
+    flex: 1;
+    text-align: right;
+    padding: 25px 30px 0 0;
+    
+}
+
+.logout-link,
+.home-link,
+.logout-link:active,
+.home-link:active{
+    text-decoration: none;
+    color: #414141;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    border-bottom: transparent;
+    transition: border-bottom .3s;
+    outline: none;
+}
+
+.home-link{
+   margin-right: 20px;
+}
+
+.logout-link:hover,
+.home-link:hover
+{
+    border-bottom: 2px solid #000;
+}
+
+/*----------CONTENT----------*/
+
+.content{
+    min-height: 83.2vh;
+}
+
+.content__header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid silver;
+}
+
+.ration-note{
+    flex: 1;
+    padding-left: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #414141;
+    letter-spacing: 1px;
+}
+
+.back{
+    padding-right: 10px;
+}
+
+.back-link,
+.back-link:active
+{
+    text-decoration: none;
+    color: #414141;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    border-bottom: transparent;
+    transition: border-bottom .3s;
+    outline: none;   
+}
+
+.back-link:hover{
+    border-bottom: 2px solid #414141;
+}
+
+/*-----------RATION ITEMS-----------*/
+
+.content__ration-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    font-weight: 500;
+}
+
+
+.row{
+    width: 60%;
+    display: flex;
+    border: 1px solid;
+    border-bottom: transparent;
+    display: flex;
+    align-items: center;
+}    
+
+.row-last{
+    border-bottom: 1px solid;
+}
+
+.col1{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+
+.col2{
+    flex: 1;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.max-limit{
+    margin-left: 30px;
+}
+
+.quantity,
+.quantity:active
+{
+    width: 150px;
+    height: 35px;
+    outline: none;
+    font-size: 18px;
+}
+
+input[type="submit"]{
+    height: 45px;
+    width: 120px;
+    outline: none;
+    border: none;
+    border-radius: 6px;    
+    background: #cc0643;
+    color: #fff; 
+    cursor: pointer;
+    font-size: 16px;
+    transform: scale(1.03);
+    transition: transform .2s;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+input[type="submit"]:hover{
+    transform: scale(1.07);
+}
+
+
+.confirm-ration{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

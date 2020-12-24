@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    font-family: "Lato","Arial",sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.wrapper{
+    display: flex;   
+}
+
+.logo{
+    background-color: #192537;
+    color: #fff;
+    flex: 1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo__title{
+    font-family: 'Spectral SC', serif;
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-top: -10px;
+}
+
+.logo__crown{
+    fill: #c3ad60;
+    height: 45px;
+    width: 50px;
+    position: relative;
+    margin-top: -4px;
+}
+
+.logo__container{
+    display: flex;
+    justify-content: space-around;
+    height:50px;
+    width: 63%;
+    align-items:center;
+}
+
+.line-left{
+    width: 43%;
+    border: 1px solid #c3ad60;
+    border-radius: 10px;
+}
+
+.line-right{
+    width: 43%;
+    border: 1px solid #c3ad60;
+    border-radius: 10px;
+}
+
+/*-----------CONTENTS--------------*/
+
+
+.content{
+    background-color: #bead6e;
+    flex: 1;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+    
+
+.welcome-note{
+    padding: 60px;
+    margin-top: 60px;
+    margin-left: 35px;
+}
+
+.welcome-note__para{
+    margin-top: 20px;
+    font-weight: 400;
+    word-spacing: 1px;
+}
+
+
+.content__login-box{
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.content__login-items{
+    padding-left: 20px;
+    width: 280px;
+}
+
+.login-container{
+    background: linear-gradient(to right bottom, rgba(93, 194, 228, 0.7), rgba(85, 115, 218, 0.95));
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.content__login-items--links{
+    padding: 15px;
+}
+
+
+.arrow{
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.items__btns,
+.items__btns:active
+{
+    height: 45px;
+    width: 120px;
+    border: none;
+    border-radius: 7px;    
+    background-image: linear-gradient(to right, #e73662, rgb(195, 48, 84));
+    color: #fff;    
+    font-size: 16px;
+    transform: scale(1.03);
+    transition: transform .2s;
+    outline: none;
+    cursor: pointer;
+}
+
+.items__btns:hover
+{
+    transform: scale(1.07);
+    border: none;
+}

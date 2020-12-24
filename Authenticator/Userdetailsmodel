@@ -1,0 +1,73 @@
+ <!--div class="content__details">
+                     <div class="content__details--outline">
+                  <div class="content__details--outline">
+                   <div class="content__details--title">
+                       <p>DETAILS OF THE SMART CARD HOLDER</p>
+                   </div>                   
+                    <table class="content__details--table">
+                        <tr class="content__details--row">
+                           <td class="content__details--items-left">Smart Card ID </td>
+                           <td class="arrow">&rarr;</td>
+                           <td class="content__details--items-right">1234567891</td>
+                           
+                        </tr>
+                        
+                        <tr class="content__details--row">
+                           <td class="content__details--items-left">Name</td>                     
+                           <td class="arrow">&rarr;</td>      
+                           <td class="content__details--items-right">USER</td>
+                        </tr>
+                        
+                        <tr class="content__details--row">
+                            <td class="content__details--items-left">Father's Name </td>
+                            <td class="arrow">&rarr;</td>
+                           <td class="content__details--items-right">User22</td>
+                        </tr>
+                        
+                        <tr class="content__details--row">
+                           <td class="content__details--items-left">DOB</td>                       
+                           <td class="arrow">&rarr;</td>
+                           <td class="content__details--items-right">01-01-1111</td>
+                        </tr> 
+                        
+                        <tr class="content__details--row">
+                           <td class="content__details--items-left">Address</td>                  
+                            <td class="arrow">&rarr;</td>        
+                           <td class="content__details--items-right">No 20, Big Street, Ranipet</td>
+                        </tr>
+                        
+                        <tr class="content__details--row">
+                           <td class="content__details--items-left">Caste</td>                    
+                            <td class="arrow">&rarr;</td>      
+                           <td class="content__details--items-right">MBC</td>
+                        </tr>
+                        
+                        <tr class="content__details--row">
+                           <td class="content__details--items-left">Religion</td>                
+                            <td class="arrow">&rarr;</td>          
+                           <td class="content__details--items-right">Hindu</td>
+                        </tr>
+                        
+                        <tr class="content__details--row">
+                            <td class="content__details--items-left">Nationality</td>
+                            <td class="arrow">&rarr;</td>
+                           <td class="content__details--items-right">Indian</td>
+                        </tr>
+                        
+                        <tr class="content__details--row">
+                           <td class="content__details--items-left">Mobile</td>                   
+                           <td class="arrow">&rarr;</td>        
+                           <td class="content__details--items-right">6363636363</td>
+                        </tr>
+                        
+                        <tr class="content__details--row">
+                           <td class="content__details--items-left">Email</td>    
+                           <td class="arrow">&rarr;</td>      
+                           <td class="content__details--items-right">user@gmail.com</td>
+                        </tr>
+                    </table>
+                        <button class="content__details--btn proceed-btn" name="proceed-btn">Proceed</button>
+            </div>  
+            </div> 
+                                
+        </div-->        

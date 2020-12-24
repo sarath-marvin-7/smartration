@@ -23,7 +23,7 @@
                 </div>
                <div class="center">
                     <h2>Login</h2>
-                    <form action="loginpage_secretary.php" method="post">
+                    <form action="Loginpage_secretary.php" method="post">
                     <div class="txt_field">
                         <input type="text" name="username" required>
                         <span></span>

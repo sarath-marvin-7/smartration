@@ -27,7 +27,7 @@
              <div class="welcome-note">Welcome <?php session_start(); echo $_SESSION['auth']; ?></div>
              <div class="logout">
              <a href="./Authenticator_homepage.php" class="home-link">Home</a>
-             <a href="../Homepage/Homepage.php" onclick="return logout()" class="logout-link">Logout</a>
+             <a href="../index.php" onclick="return logout()" class="logout-link">Logout</a>
              </div>
           </div>
         <div class="content">

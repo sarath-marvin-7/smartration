@@ -27,7 +27,7 @@
                <div class="logout">
                <a href="./Shipper_Homepage.php" class="back-link">
                Back</a>
-               <a href="../Homepage/Homepage.php" onclick="return logout()" class="logout-link">
+               <a href="../index.php" onclick="return logout()" class="logout-link">
                Logout</a>
                </div>
             </div>        

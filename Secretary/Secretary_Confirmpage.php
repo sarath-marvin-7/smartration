@@ -27,7 +27,7 @@
 
      <div class="logout">
      <a href="./Secretary_homepage.php" class="home-link">Home</a>
-     <a href="../Homepage/Homepage.php" class="logout-link" onclick="return logout()">Logout</a>
+     <a href="../index.php" class="logout-link" onclick="return logout()">Logout</a>
      </div>
      </div>
 </body>

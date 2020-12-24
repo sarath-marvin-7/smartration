@@ -8,7 +8,7 @@
      <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-   <form method="post" action="Homepage.php">
+   <form method="post" action="index.php">
     <div class="wrapper">
         <div class="logo">
            <div class="logo__container">

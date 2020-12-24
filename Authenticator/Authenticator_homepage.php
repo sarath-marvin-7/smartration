@@ -28,7 +28,7 @@
           <div class="header">
              
              <div class="welcome-note">Welcome <?php session_start();echo $_SESSION['auth'];?></div> 
-             <div class="logout"><a href="../Homepage/Homepage.php" onclick="return logout()" class="logout-link">Logout</a></div>
+             <div class="logout"><a href="../index.php" onclick="return logout()" class="logout-link">Logout</a></div>
           </div>           
           <div class="content">
               <div class="content__left">                
